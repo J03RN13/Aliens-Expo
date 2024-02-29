@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.topnav {
+    font-family:'Quicksand', sans-serif;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    box-shadow: 0 0 25px 0 black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.topnav a {
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    letter-spacing: 5pt;
+    font-weight: bolder;
+}
+
+.main{
+    background-color: white;
+    margin-top: 300px;
+    padding-bottom: 200px;
+}
+.main #content1{
+    background-color: white;
+    color: #38495a;
+    padding: 10px;
+    width: 50%;
+    margin: 0  auto;
+    letter-spacing: 1pt;
+    text-align: center;
+}
+
+.main #content2{
+    background-color: white;
+    color: #38495a;
+    padding: 10px;
+    width: 50%;
+    margin: 0  auto;
+    letter-spacing: 1pt;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    font-family:'Quicksand', sans-serif;
+    cursor: url(cursor.cur), auto;
+    margin-top: 300px;
+}
+
+:hover {
+  cursor: url(cursor.cur), auto;
+}
+
+  #title {
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-top: -60px;
+    padding-left: 10px;
+    background: -webkit-linear-gradient(white, #38495a);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.footer {
+    padding-top: 100px;
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: white;
+
+}
+.footer .policyLink {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.footer .policyLink a{
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+    
+}
+input {
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+    font-family:'Quicksand', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}

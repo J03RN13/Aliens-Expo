@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aliens - News</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style_news.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a class="active" href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+  </div>
+  <div id="title">
+    News
+  </div>
+  <div id="main">
+    <div class="sortFunctions">
+    <input class="search" id="searchInput" placeholder="Search" oninput="searchNews()">
+    <button class="sort" onclick="sortNews('title')">
+      Sort by Title
+      <span id="titleSortArrow" class="sort-arrow"></span>
+    </button>
+    <button class="sort" onclick="sortNews('date')">
+      Sort by Date
+      <span id="dateSortArrow" class="sort-arrow"></span>
+    </button>  
+    </div>
+    <ul id="newsList"class="newsLinks">
+      <li>
+        <a href="https://www.wgbh.org/news/local/2024-02-05/harvard-astronomy-professor-avi-loeb-thinks-he-has-new-evidence-of-alien-spacecraft" target="_blank">
+          <img src="news_thumbnails/wgbh.png" alt="Article 1">
+          <div id="text">
+            <h3 class="title">Harvard astronomy professor Avi Loeb thinks he has new evidence of alien spacecraft</h3>
+            <p><small>Harvard astronomy professor Avi Loeb believes he has new evidence of alien spacecraft...</small></p>
+            <div class="date">
+              February 05, 2024
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.scientificamerican.com/podcast/episode/the-governments-former-ufo-hunter-has-a-lot-to-say/" target="_blank">
+          <img src="news_thumbnails/sciam.png" alt="Article 1">
+          <div id="text">
+            <h3 class="title">The Government’s Former UFO Hunter Found Something More Concerning than Aliens</h3>
+            <p><small>Sean Kirkpatrick looked into the skies and deep into government archives for extraterrestrials. What he found is, to him, more concerning than little green men.</small></p>
+            <div class="date">
+              February 05, 2024
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.nbcnews.com/politics/politics-news/pentagon-launches-ufo-reporting-form-rcna123146" target="_blank">
+          <img src="news_thumbnails/nbc.jpeg" alt="Article 1">
+          <div id="text">
+            <h3 class="title">Pentagon launches UFO reporting form</h3>
+            <p><small>The All-domain Anomaly Resolution Office has been tasked with gathering information on alleged government activity related to unidentified aerial phenomena since 1945.</small></p>
+            <div class="date">
+              November 1, 2023
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://phys.org/news/2024-02-bacteria-survive-mars-conditions.html" target="_blank">
+          <img src="news_thumbnails/phys.jpeg" alt="Article 1">
+          <div id="text">
+            <h3 class="title">Testing shows some bacteria could survive under Mars conditions</h3>
+            <p><small>An international team of radiation specialists, biologists, and infectious disease experts has found four types of bacteria that are capable of surviving exposure to the hostile Mars environment.</small></p>
+            <div class="date">
+              February 7, 2024
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.space.com/humans-on-mars-better-science-machine" target="_blank">
+          <img src="news_thumbnails/space.png" alt="Article 1">
+          <div id="text">
+            <h3 class="title">Humans on Mars could conduct far better science than any machine</h3>
+            <p><small>It is important to think about what supporting instruments and technologies need to be developed now to equip our astronauts for doing outstanding science at Mars.</small></p>
+            <div class="date">
+              February 6, 2024
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.goodnewsnetwork.org/incredible-new-image-captures-evidence-of-once-flowing-river-on-mars/" target="_blank">
+          <img src="news_thumbnails/goodnewsnetwork.png" alt="Article 1">
+          <div id="text">
+            <h3 class="title">Incredible New Image Captures Evidence of Once-Flowing River on Mars</h3>
+            <p><small>The picture above was taken not on Earth, but by the Mars Reconnaissance Orbiter (MRO) as it searches for signs of water and ice on the Red Planet.</small></p>
+            <div class="date">
+              February 8, 2024
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.space.com/mars-bug-claim-not-aliens-search-for-life.html#:~:text=It's%20Still%20Not%20Aliens%3A%20'Mars,Damage%20the%20Search%20for%20Life&text=%22It%20takes%20away%20the%20excitement%20from%20our%20real%20discoveries.%22&text=An%20Ohio%20scientist%20claims%20to,not%20aliens%2C%20other%20researchers%20say." target="_blank">
+          <img src="news_thumbnails/space.png" alt="Article 1">
+          <div id="text">
+            <h3 class="title">It's Still Not Aliens: 'Mars Bug' Claim Could Damage the Search for Life</h3>
+            <p><small>"It takes away the excitement from our real discoveries."</small></p>
+            <div class="date">
+              November 25, 2019
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.space.com/mars-bug-claim-not-aliens-search-for-life.html#:~:text=It's%20Still%20Not%20Aliens%3A%20'Mars,Damage%20the%20Search%20for%20Life&text=%22It%20takes%20away%20the%20excitement%20from%20our%20real%20discoveries.%22&text=An%20Ohio%20scientist%20claims%20to,not%20aliens%2C%20other%20researchers%20say." target="_blank">
+          <img src="news_thumbnails/astrobiology.png" alt="Article 1">
+          <div id="text">
+            <h3 class="title">Hunting for Hidden Life on Worlds Orbiting Old, Red Stars</h3>
+            <p><small>All throughout the universe, there are stars in varying phases and ages. Planetary diversity suggests that around other stars, initially frozen worlds could be the size of Earth and provide habitable conditions once the star becomes older.</small></p>
+            <div class="date">
+              May 16, 2016
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="footer">
+    <a>Don't forget to check out what else we have to offer!</a>
+    <div class="policyLink">
+      <a href="tos.html">Terms of service</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a>Make a donation</a>
+      <a>Make a complaint</a>
+    </div>
+    <div class="copyright">
+      <a>Copyright 2020-2021. FUS endorses this website</a>
+    </div>
+  </div>
+  <script src="sort.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    background-color: black;
+}
+
+h3, h1 {
+    font-family: 'Sixtyfour', sans-serif;
+    color: #fff; 
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00; 
+    background: linear-gradient(90deg, #00ff00, #fff, #00ff00); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+.Policy {
+    font-family: 'Sixtyfour', sans-serif;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+a {
+    font-family:'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    size: 24pt;
+    
+}
